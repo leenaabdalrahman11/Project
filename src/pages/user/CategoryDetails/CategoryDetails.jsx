@@ -94,7 +94,7 @@ export default function CategoryDetails() {
               </div>
               <div className={style.SwiperTittle}>
                 <h2>{product.name}</h2>
-                <span>{product.price}</span>
+                <span>{product.price} $</span>
                 <div className={style.CategoriesBTns}>
                   <Link
                     className={style.btn}

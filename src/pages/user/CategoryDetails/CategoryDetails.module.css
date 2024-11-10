@@ -172,7 +172,7 @@ body {
     }
 
 }
-.EachSlide h2{
+.EachSlide h2,.EachSlide span{
     color: #f9f9f9;
 }
 @media (max-width: 1211px) {
