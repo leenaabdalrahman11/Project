@@ -1,6 +1,6 @@
 import React from 'react';
 import { RouterProvider } from 'react-router-dom';
-import UserContextProvider from './context/DataContext'; // Ensure this path is correct
+import UserContextProvider from './context/DataContext'; 
 import router from './Routes/router';
 
 export default function App() {

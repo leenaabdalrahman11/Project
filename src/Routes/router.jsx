@@ -8,11 +8,12 @@ import Root from "../Root.jsx";
 import { ProtectedRouter, PublicRouter } from '../components/ProtectedRouter/ProtectedRouter.jsx';
 import CategoryDetails from '../pages/user/CategoryDetails/CategoryDetails.jsx';
 import Product from '../pages/user/Product/Product.jsx';
-import Cart from '../pages/user/Cart/cart.jsx';
+import Cart from '../pages/user/Cart/Cart.jsx';
 import Welcome from '../pages/user/Welcome/Welcome.jsx';
 import ForgotPassword from '../pages/user/ForgotPassword/ForgotPassword.jsx';
 import Products from '../pages/user/Products/Products.jsx';
 import Order from '../pages/user/Order/Order.jsx';
+
 const router = createBrowserRouter([
   {
     path: '/',
